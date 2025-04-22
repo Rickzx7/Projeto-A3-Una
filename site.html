@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sacramento RPG</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("assets/img/fundo.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(5px);
+      border-radius: 20px;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .box {
+      background-color: #f4f4f4;
+      border-radius: 15px;
+      padding: 20px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+
+    .link {
+      text-align: center;
+      font-size: 0.7em;
+      margin-bottom: 15px;
+      color: #555;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .link a {
+      color: #3b3b3b;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #a9451f;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .logo {
+      position: absolute;
+      top: 30px;
+      text-align: center;
+      width: 100%;
+      font-size: 32px;
+      color: white;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .logo span {
+      font-family: 'Georgia', serif;
+    }
+
+    .logo .rpg {
+      font-size: 16px;
+      display: block;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="logo">
+    <span>SACRAMENTO</span>
+    <span class="rpg">RPG</span>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <h2>ACESSAR</h2>
+      <input type="text" placeholder="NOME DE USUÁRIO OU EMAIL" />
+      <input type="password" placeholder="SENHA" />
+      <div class="link"><a href="#">ESQUECI MINHA SENHA</a></div>
+      <button>LOGIN</button>
+    </div>
+    <div class="box">
+      <h2>CADASTRO</h2>
+      <input type="email" placeholder="ENDEREÇO DE E-MAIL" />
+      <input type="password" placeholder="SENHA" />
+      <div class="link"><a href="#">CADASTRAR-SE COM CONTA JAMBÔ</a></div>
+      <button>CADASTRAR-SE</button>
+    </div>
+  </div>
+</body>
+</html>
