@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Staatliches';
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Staatliches;
+    src: url('../assets/fontes/Staatliches-Regular.ttf') format('truetype');
+
+}
+
+h1,
+h2,
+h3,
+p,
+button {
+    font-family: Staatliches, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    height: auto;
+    min-height: 100vh;
+    font-family: Staatliches, sans-serif;
+
+
+}
+
+.header-topo {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: 80%;
+    height: 150px;
+    z-index: 5;
+}
+
+.menu-icon {
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-
+}
+
+.titulo-fichas span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container-fichas {
+
+    background-color: #1e1e1e;
+    padding: 100px 40px;
+    border-radius: 0px;
+    margin: 0;
+    width: 100vw;
+    height: calc(100vh - 120px);
+    min-height: calc(96vh - 120px);
+    margin-top: 120px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+
+
+}
+
+.top-bar {
+    background-color: #1e1e1e;
+    margin: 0;
+    padding-top: 100px, 50px;
+
+
+}
+
+.titulo-fichas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 0px 0px;
+
+    color: white;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: auto;
+
+}
+
+
+.ficha {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ficha-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ficha-conteudo img {
+    width: 150px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.ficha-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+.nome-personagem {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px 0;
+}
+
+.ultima-atualizacao {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+
+button {
+    padding: 15px 30px;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #a0382b;
+    color: white;
+    border: none;
+    font-family: Staatliches, sans-serif;
+    transition: 0.3s ease;
+
+}
+
+
+button:hover {
+    background-color: #8c2d22;
+}
